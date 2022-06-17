@@ -1,0 +1,6 @@
+.main-container-feature {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3% 0 3%;
+    justify-content: space-evenly;
+}

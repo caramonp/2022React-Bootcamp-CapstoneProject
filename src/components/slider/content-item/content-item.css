@@ -1,0 +1,38 @@
+.content-item {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-item-image {
+    width: 100%;
+    height: auto;
+}
+
+.content-item-title {
+    text-align: center;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    margin: 0.5rem 0;
+}
+
+.content-item-text {
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: normal;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 450px) {
+    .content-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
