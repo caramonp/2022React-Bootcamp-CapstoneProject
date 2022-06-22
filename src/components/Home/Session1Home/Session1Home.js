@@ -1,5 +1,5 @@
-import data from "../../mocks/en-us/featured-banners.json";
-import Slider from "../slider/slider";
+import data from "../../../mocks/en-us/featured-banners.json";
+import Slider from "../../slider/slider";
 import "./Session1Home.css"
 
 const Session1Home = () => {

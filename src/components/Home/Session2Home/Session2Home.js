@@ -1,4 +1,4 @@
-import data from "../../mocks/en-us/product-categories.json";
+import data from "../../../mocks/en-us/product-categories.json";
 import Card from "./Card/card"
 
 const Session1Home = () => {

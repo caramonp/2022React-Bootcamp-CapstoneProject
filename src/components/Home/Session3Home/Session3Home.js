@@ -1,4 +1,4 @@
-import data from '../../mocks/en-us/featured-products.json'
+import data from '../../../mocks/en-us/featured-products.json'
 import CardFeatured from './CardFeature/CardFeatured'
 const Session3Home = () => {
     return(

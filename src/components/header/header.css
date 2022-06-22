@@ -68,3 +68,9 @@ input {
         left: 45vw;
     }
 }
+
+@media (max-width: 450px) {
+    .header {
+        margin-bottom: 10%;
+    }
+}
