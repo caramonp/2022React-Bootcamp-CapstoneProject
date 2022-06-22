@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c55a5f3a.chunk.css",
+    "main.js": "/static/js/main.20dde3c1.chunk.js",
+    "main.js.map": "/static/js/main.20dde3c1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d57f0c48.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d57f0c48.js.map",
+    "static/js/2.e1c1a8d9.chunk.js": "/static/js/2.e1c1a8d9.chunk.js",
+    "static/js/2.e1c1a8d9.chunk.js.map": "/static/js/2.e1c1a8d9.chunk.js.map",
+    "static/js/3.1ae38972.chunk.js": "/static/js/3.1ae38972.chunk.js",
+    "static/js/3.1ae38972.chunk.js.map": "/static/js/3.1ae38972.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c55a5f3a.chunk.css.map": "/static/css/main.c55a5f3a.chunk.css.map",
+    "static/js/2.e1c1a8d9.chunk.js.LICENSE.txt": "/static/js/2.e1c1a8d9.chunk.js.LICENSE.txt",
+    "static/media/Logo.387fed29.png": "/static/media/Logo.387fed29.png",
+    "static/media/React.464a6a0c.png": "/static/media/React.464a6a0c.png",
+    "static/media/Session1Home.css": "/static/media/Session-1.2112b61c.jpg",
+    "static/media/Shopin-Car.55e8dec7.png": "/static/media/Shopin-Car.55e8dec7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d57f0c48.js",
+    "static/js/2.e1c1a8d9.chunk.js",
+    "static/css/main.c55a5f3a.chunk.css",
+    "static/js/main.20dde3c1.chunk.js"
+  ]
+}
