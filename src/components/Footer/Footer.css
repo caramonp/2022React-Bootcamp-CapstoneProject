@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    background-color: black;
+    color: rgb(134, 147, 158);
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.react-logo {
+    height: 30px;
+}
+
+.wizeline-title {
+    color: brown;
+}
+
+.react-bootcamp {
+    color: aqua;
+}

@@ -1,0 +1,10 @@
+.contentStyle {
+    width: '100%';
+}
+
+@media (max-width: 1230px) {
+    .contentStyle {
+        margin: "auto";
+        width: "500px",
+    }
+}
