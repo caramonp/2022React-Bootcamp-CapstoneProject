@@ -4,6 +4,7 @@ footer {
     color: rgb(134, 147, 158);
     padding-top: 5px;
     font-style: italic;
+    min-height: 10vh;
 }
 
 .react-logo {

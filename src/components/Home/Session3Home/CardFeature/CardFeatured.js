@@ -1,5 +1,5 @@
 import ContainerCardFeature from "../ContainerCardFeature/ContainerCardFeature";
-import './CardFeature.css'
+import "./CardFeature.css";
 
 const CardFeatured = ({ description }) => {
   return (

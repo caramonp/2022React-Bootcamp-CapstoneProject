@@ -1,17 +1,14 @@
 import "./App.css";
-import { useFeaturedBanners } from "./utils/hooks/useFeaturedBanners";
 import Header from "./components/header/header";
 import Home from "./Screems/Home/Home";
 import Footer from "./components/Footer/Footer";
+import ProductList from './Screems/ProductList/ProductList'
 
 function App() {
-  const { data, isLoading } = useFeaturedBanners();
-  console.log(data, isLoading);
-
   return (
     <>
       <Header />
-      <Home />
+      {window.location.pathname === '/' ?  <Home /> : <ProductList/>}
       <Footer />
     </>
   );
