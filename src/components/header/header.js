@@ -8,7 +8,10 @@ const Header = () => {
     <>
       <header className="header">
         <div className='container-header'>
+          <a href="/">
           <img src={Logo} alt="logo" className="logo" />
+          </a>
+          
           <div className="search-bar">
             <input type="text" placeholder="¿Que estas buscando?" />
             <img src={Search} alt="search" className="search-logo"/>

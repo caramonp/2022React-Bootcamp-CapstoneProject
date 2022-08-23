@@ -1,0 +1,22 @@
+.content-side-bar {
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.3em;
+    color: #605353;
+}
+
+.checkbox {
+    margin: 0;
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid;
+    border-color: #a77e2d;
+    border-radius: 0.15em;
+    box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+h5 {
+    min-width: 15px;
+    margin: 5px 0 15px 5px;
+}

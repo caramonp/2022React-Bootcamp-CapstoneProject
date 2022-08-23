@@ -3,7 +3,7 @@
     justify-content: space-between;
     font-size: small;
     padding: 1%;
-    height: 25px;
+    min-height: 10vh;
 }
 
 .logo {
