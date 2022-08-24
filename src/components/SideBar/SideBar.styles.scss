@@ -1,0 +1,56 @@
+.container-side-bar {
+    @media (max-width: 815px) {
+        margin: auto;
+        align-content: center;
+    }
+    @media (max-width: 480px) {
+        overflow: hidden;
+    }
+    .container-checkbox {
+        @media (max-width: 815px) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .content-side-bar {
+        display: grid;
+        grid-template-columns: 1em auto;
+        gap: 0.3em;
+        color: #605353;
+        @media (max-width: 815px) {
+            margin-right: 15px;
+        }
+    }
+    .checkbox {
+        margin: 0;
+        font: inherit;
+        width: 1.15em;
+        height: 1.15em;
+        border: 0.15em solid;
+        border-color: #a77e2d;
+        border-radius: 0.15em;
+        box-shadow: inset 1em 1em var(--form-control-color);
+    }
+    .button-side-bar {
+        font-size: medium;
+        background-color: rgba(248, 214, 18, 0.733);
+        border-color: rgba(248, 214, 18, 0.733);
+        margin: 10px auto;
+        width: 200px;
+        height: 40px;
+        display: inline-block;
+        &:hover {
+            opacity: 0.30;
+            cursor: pointer;
+        }
+        @media (max-width: 815px) {
+            margin: auto;
+        }
+    }
+    .container-button-side-bar {
+        display: flex;
+        @media (max-width: 815px) {
+            margin-top: 15px;
+        }
+    }
+}

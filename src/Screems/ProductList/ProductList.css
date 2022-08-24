@@ -1,9 +1,0 @@
-.product-list-container {
-    min-height: 65vh;
-}
-
-.body-products {
-    display: flex;
-    flex-direction: row;
-    margin: 5%;
-}

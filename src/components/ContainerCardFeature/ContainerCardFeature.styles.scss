@@ -1,0 +1,23 @@
+.content-card-feature {
+    width: 250px;
+    margin-top: 3%;
+    color: #1B2631;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+        border-style: groove;
+        border-radius: 15px;
+        color: #FF7000
+    }
+    .imagen-feature {
+        width: 100%;
+    }
+    .name-feature {
+        margin-top: 0;
+        border-color: #616A6B;
+    }
+    .price-feature {
+        color: #616A6B;
+        font-size: medium;
+    }
+}

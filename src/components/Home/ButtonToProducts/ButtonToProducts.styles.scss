@@ -1,0 +1,16 @@
+.container-button {
+    display: flex;
+    .button-to-products {
+        font-size: medium;
+        background-color: rgba(248, 214, 18, 0.733);
+        border-color: rgba(248, 214, 18, 0.733);
+        margin: 0 auto;
+        width: 200px;
+        height: 40px;
+        display: inline-block;
+        &:hover {
+            opacity: 0.30;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,7 +1,8 @@
-import "./header.css";
 import Logo from "../../assest/images/Logo.png";
 import Search from "../../assest/images/carbon_search.png"
 import ShopinCar from "../../assest/images/Shopin-Car.png";
+
+import "./Header.styles.scss";
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
           </a>
           
           <div className="search-bar">
-            <input type="text" placeholder="¿Que estas buscando?" />
+            <input type="text" placeholder="¿Que estas buscando?" className="input-search" />
             <img src={Search} alt="search" className="search-logo"/>
           </div>
         </div>

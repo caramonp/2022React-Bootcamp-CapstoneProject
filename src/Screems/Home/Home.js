@@ -1,14 +1,14 @@
-import Session1Home from "../../components/Home/Session1Home/Session1Home"
-import Session2Home from "../../components/Home/Session2Home/Session2Home"
-import Session3Home from "../../components/Home/Session3Home/Session3Home"
+import CarouselHome from "../../components/Home/CarouselHome/CarouselHome"
+import CategoriesHome from "../../components/Home/CategoriesHome/CategoriesHome"
+import ButtonToProducts from "../../components/Home/ButtonToProducts/ButtonToProducts"
 
 const Home = () => {
 
   return (
     <>
-      <Session1Home/>
-      <Session2Home/>
-      <Session3Home/>
+      <CarouselHome/>
+      <CategoriesHome/>
+      <ButtonToProducts/>
     </>
   );
 };

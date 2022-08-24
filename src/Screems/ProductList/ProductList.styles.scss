@@ -1,0 +1,17 @@
+.product-list-container {
+    .product-list-title {
+        text-align: center;
+        font-style: italic;
+        color: #924000;
+    }
+    min-height: 65vh;
+    .body-products {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        @media (max-width: 815px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

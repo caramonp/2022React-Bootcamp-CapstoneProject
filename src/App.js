@@ -1,7 +1,5 @@
-import "./App.css";
-import Header from "./components/header/header";
+import Header from "./components/Header/Header";
 import Home from "./Screems/Home/Home";
-import Footer from "./components/Footer/Footer";
 import ProductList from './Screems/ProductList/ProductList'
 
 function App() {
@@ -9,7 +7,6 @@ function App() {
     <>
       <Header />
       {window.location.pathname === '/' ?  <Home /> : <ProductList/>}
-      <Footer />
     </>
   );
 }
